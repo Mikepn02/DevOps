@@ -1,10 +1,10 @@
 {
   "name": "devops",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "node api.js && docusaurus start",
+    "build": "node api.js && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
